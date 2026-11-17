@@ -1,0 +1,811 @@
+{
+  "moneda": "USD",
+  "secciones": [
+    {
+      "id": "restaurante",
+      "nombre": "Restaurante",
+      "subtitulo": "Cocina de autor con fusión internacional y toque caribeño",
+      "categorias": [
+        {
+          "id": "entradas-y-ensaladas",
+          "nombre": "Entradas y Ensaladas",
+          "tipo": "tarjetas",
+          "items": [
+            {
+              "nombre": "CEVICHE AL ESTILO PERUANO",
+              "descripcion": "Dados de pesca blanca con pasta de ají panca, leche de tigra, siracha, vegetales clásicos y chips de platanitos.",
+              "precio": 15.00,
+              "imagen": "/src/assets/images/ceviche_peruano_1794874680211.jpg"
+            },
+            {
+              "nombre": "CEVICHE TAILANDÉS",
+              "descripcion": "Dados de pesca blanca, vegetales clásicos, jengibre, siracha, soya, leche de tigra y aceite de sésamo.",
+              "precio": 15.00,
+              "imagen": "/src/assets/images/ceviche_tailandes_1794874680912.jpg"
+            },
+            {
+              "nombre": "ENVOLTINIS DE BERENJENAS",
+              "descripcion": "Rollitos de berenjenas rellenos de queso de cabra, frutos secos y pesto.",
+              "precio": 12.00,
+              "imagen": "/src/assets/images/envoltinis_berenjenas_1794874681335.jpg"
+            },
+            {
+              "nombre": "ENSALADA BOUTIQUE",
+              "descripcion": "Mézclum de lechuga baby mix, queso de cabra intervenido con frutos rojos, tomates cherry, julianas de zanahoria, julianas de pollo salteadas, almendras fileteadas, tropezones de queso parmesano, vinagreta de parchita y aceite de sésamo.",
+              "precio": 15.00,
+              "imagen": "/src/assets/images/ensalada_boutique_1794874682011.jpg"
+            },
+            {
+              "nombre": "ASIAN SALAD",
+              "descripcion": "Mézclum de lechuga baby mix, lomito al wok, turrón de maní spice, julianas de zanahoria, tomates, jojoticos bebé, edamames, vinagreta de tamarindo y papelón.",
+              "precio": 16.00,
+              "imagen": "/src/assets/images/asian_salad_1794874682953.jpg"
+            },
+            {
+              "nombre": "ENSALADA BAHIANA",
+              "descripcion": "Mézclum de lechuga baby mix aderezada con reducción balsámica y sésamo, coronada con frutos del mar crispy, bañados en salsa fuji y salsa anguila, aguacate, julianas de pepino y tomate.",
+              "precio": 18.00,
+              "imagen": "/src/assets/images/ensalada_bahiana_1794874682659.jpg"
+            },
+            {
+              "nombre": "ENSALADA CÉSAR",
+              "descripcion": "Lechuga baby fresca, crutones artesanales, Parmigiano Reggiano y salsa César cremosa de la casa.",
+              "precio": 12.00,
+              "imagen": "/src/assets/images/ensalada_cesar_1794874683229.jpg"
+            },
+            {
+              "nombre": "ENSALADA CÉSAR CON POLLO",
+              "descripcion": "Lechuga baby fresca, crutones artesanales, Parmigiano Reggiano, salsa César cremosa de la casa y pollo grillado.",
+              "precio": 14.00,
+              "imagen": "/src/assets/images/cesar_con_pollo_1794874683674.jpg"
+            },
+            {
+              "nombre": "CROQUETAS BOUTIQUE",
+              "descripcion": "Croquetas de jamón serrano sobre crema de ajoporro, tomates asados y virutas de queso parmesano.",
+              "precio": 10.00,
+              "imagen": "/src/assets/images/croquetas_boutique_1794874684359.jpg"
+            },
+            {
+              "nombre": "TIRADITO DE PULPO",
+              "descripcion": "Láminas de pulpo sobre espejo de crema de berenjenas, bañado en chimichurri, tomates cherry, germinado de rabanito y chips de platanitos.",
+              "precio": 16.00,
+              "imagen": "/src/assets/images/tiradito_pulpo_1794874684509.jpg"
+            },
+            {
+              "nombre": "CARPACCIO DE LOMITO",
+              "descripcion": "Prensado de lomito con dressing de albahaca, champiñones al ajillo, Parmigiano-Reggiano, pesto clásico, rúcula, tomates cherry y piñones.",
+              "precio": 14.00,
+              "imagen": "/src/assets/images/carpaccio_lomito_1794874685083.jpg"
+            }
+          ]
+        },
+        {
+          "id": "aves-y-carnes",
+          "nombre": "Aves y Carnes",
+          "tipo": "tarjetas",
+          "items": [
+            {
+              "nombre": "FILET MIGNON DE POLLO",
+              "descripcion": "Medallones de pollo envueltos en tocineta sumergidos en salsa roquefort y romero.",
+              "precio": 18.00,
+              "imagen": "/src/assets/images/filet_mignon_pollo_1794874684910.jpg"
+            },
+            {
+              "nombre": "POLLO CAPRESA",
+              "descripcion": "Churrasco de pollo al grill gratinado con tomates secos, queso mozzarella y pesto.",
+              "precio": 17.00,
+              "imagen": "/src/assets/images/pollo_capresa_1794874685121.jpg"
+            },
+            {
+              "nombre": "LOMITO PIMIENTA",
+              "descripcion": "Centro de lomito sellado en tres pimientas con puré rústico de papas aromatizado con albahaca y bañado en crema al vino y praliné de pistacho.",
+              "precio": 22.00,
+              "imagen": "/src/assets/images/lomito_pimienta_1794874686951.jpg"
+            },
+            {
+              "nombre": "LOMITO DOS SALSAS",
+              "descripcion": "Centro de lomito bañado en salsa de reducción de vino tinto y miso.",
+              "precio": 19.00,
+              "imagen": "/src/assets/images/lomito_dos_salsas_1794874686944.jpg"
+            },
+            {
+              "nombre": "LOMITO TENTACIÓN",
+              "descripcion": "Centro de lomito al grill con corte escalopina en crema y queso tentación flameado coronado con chutney de piña con papitas colombianas aromatizadas con romero.",
+              "precio": 22.00,
+              "imagen": "/src/assets/images/lomito_tentacion_1794874687028.jpg"
+            }
+          ]
+        },
+        {
+          "id": "pescados-y-mariscos",
+          "nombre": "Pescados y Mariscos",
+          "tipo": "tarjetas",
+          "items": [
+            {
+              "nombre": "LANGOSTINOS EN SALSA CRIOLLA CALIENTE",
+              "descripcion": "Langostinos sellados sobre vegetales al wok, salsa menier, salsa drago, tomates en brunoise y tostones.",
+              "precio": 25.00,
+              "imagen": "/src/assets/images/langostinos_criolla_1794874687587.jpg"
+            },
+            {
+              "nombre": "GRATEN DE MARISCOS",
+              "descripcion": "Salteado de mariscos al wok con salsa roja y crema.",
+              "precio": 22.00,
+              "imagen": "/src/assets/images/graten_mariscos_1794874687626.jpg"
+            },
+            {
+              "nombre": "PULPO AL GRILL",
+              "descripcion": "Pulpo sellado al grill con paprika, bañado en pesto de curry verde, salsa anguila y crotones de tocineta.",
+              "precio": 35.00,
+              "imagen": "/src/assets/images/pulpo_grill_1794874688596.jpg"
+            },
+            {
+              "nombre": "SALMÓN EN CREMA DE LIMÓN",
+              "descripcion": "Churrasco de salmón al grill, en salsa de limón a la crema, espárragos, vegetales salteados, tomates cherry, rabanitos y caviar de bisque.",
+              "precio": 28.00,
+              "imagen": "/src/assets/images/salmon_crema_limon_1794874688744.jpg"
+            },
+            {
+              "nombre": "RÓBALO DASHI",
+              "descripcion": "Churrasco de róbalo al vapor, en salsa yuzu, jengibre, nido de cebollín ajustado con aceite de sésamo caliente.",
+              "precio": 19.00,
+              "imagen": "/src/assets/images/robalo_dashi_1794874689082.jpg"
+            },
+            {
+              "nombre": "RÓBALO AL BLANCO",
+              "descripcion": "Churrasco de róbalo al grill en salsa ajillo, vino blanco y camarones.",
+              "precio": 20.00,
+              "imagen": "/src/assets/images/robalo_blanco_1794874689988.jpg"
+            }
+          ]
+        },
+        {
+          "id": "arroces-y-pastas",
+          "nombre": "Arroces y Pastas",
+          "tipo": "tarjetas",
+          "items": [
+            {
+              "nombre": "LINGUINI A LA MARINERA",
+              "descripcion": "Linguini en salsa roja de mariscos aromatizado con sambuca.",
+              "precio": 19.00,
+              "imagen": "/src/assets/images/linguini_marinera_1794874690212.jpg"
+            },
+            {
+              "nombre": "PAD THAI",
+              "descripcion": "Pasta de arroz salteada al wok con vegetales, salsas asiáticas y proteína de su gusto.",
+              "precio": 18.00,
+              "imagen": "/src/assets/images/pad_thai_1794874690393.jpg"
+            },
+            {
+              "nombre": "LINGUINI CAPRESA",
+              "descripcion": "Linguini en salsa roja, queso burrata, pesto, tomates asados y piñones.",
+              "precio": 14.00,
+              "imagen": "/src/assets/images/linguini_capresa_1794874691009.jpg"
+            },
+            {
+              "nombre": "RISOTTO SEVEN",
+              "descripcion": "Risotto a la crema con tres quesos, coronado con escalopinas de lomito con tomates secos, rúcula, pesto clásico, lajas de queso Parmigiano-Reggiano, almendras y reducción balsámica.",
+              "precio": 19.00,
+              "imagen": "/src/assets/images/risotto_seven_1794874690963.jpg"
+            },
+            {
+              "nombre": "LINGUINNI SEVEN",
+              "descripcion": "Linguini carbonara fusionado con salsa ragú y tomates confitados.",
+              "precio": 15.00,
+              "imagen": "/src/assets/images/linguini_seven_1794874692162.jpg"
+            },
+            {
+              "nombre": "RISOTTO FRUTTI DI MARE",
+              "descripcion": "Cremoso risotto con sabores del mar, coronado con langostinos crispy y salsa menier y tomate cherry.",
+              "precio": 20.00,
+              "imagen": "/src/assets/images/risotto_frutti_mare_1794874692361.jpg"
+            },
+            {
+              "nombre": "ARROZ CHAUFA",
+              "descripcion": "Arroz salteado con camarones y calamares, coronado con chicharrón de pescado y ensalada criolla.",
+              "precio": 18.00,
+              "imagen": "/src/assets/images/arroz_chaufa_1794874693007.jpg"
+            },
+            {
+              "nombre": "RAVIOLI CAPRESA",
+              "descripcion": "Rellenos de queso ricotta con tomates secos sumergidos en crema al pesto coronado con crotones de jamón serrano y almendras.",
+              "precio": 17.00,
+              "imagen": "/src/assets/images/ravioli_capresa_1794874693829.jpg"
+            }
+          ]
+        },
+        {
+          "id": "snacks",
+          "nombre": "Snacks",
+          "tipo": "tarjetas",
+          "items": [
+            {
+              "nombre": "CHEESE BURGER",
+              "descripcion": "Pan brioche, 160 g de carne preparada, queso cheddar y salsa americana, acompañada de papas francesas.",
+              "precio": 9.00,
+              "imagen": "/src/assets/images/cheese_burger_1794874693642.jpg"
+            },
+            {
+              "nombre": "BACON CHEESE BURGER",
+              "descripcion": "Pan brioche, 160 g de carne preparada, tocineta, queso cheddar y salsa americana, acompañada de papas francesas.",
+              "precio": 10.00,
+              "imagen": "/src/assets/images/bacon_cheese_burger_1794874694746.jpg"
+            },
+            {
+              "nombre": "HOT DOG SEVEN",
+              "descripcion": "Salchicha de tu preferencia, hilos de papa, queso mozzarella, queso cheddar, salsa de ajo, guacamole, pico de gallo, maíz, crema de queso y tocineta.",
+              "precio": 8.00,
+              "imagen": "/src/assets/images/hot_dog_seven_1794874694900.jpg"
+            },
+            {
+              "nombre": "HOT DOG BOUTIQUE",
+              "descripcion": "Ensalada coleslaw, salchichas a tu preferencia, queso mozzarella fundido, tártara, salsa de berenjena, mojito e hilos de cebolla.",
+              "precio": 8.00,
+              "imagen": "/src/assets/images/hot_dog_boutique_1794874694756.jpg"
+            },
+            {
+              "nombre": "CLUB SÁNDWICH",
+              "descripcion": "Sándwich triple capa, jamón, queso mozzarella, milanesa de pollo, tocineta, vegetales, huevo, salsa americana, acompañado con papas rústicas y salsa tártara.",
+              "precio": 14.00,
+              "imagen": "/src/assets/images/club_sandwich_1794874694950.jpg"
+            },
+            {
+              "nombre": "PANINI SEVEN",
+              "descripcion": "Mézclum de lechuga baby mix, dressing de albahaca, salsa de pesto, chorizo español, salchichón, pepperoni, jamón serrano y queso amarillo.",
+              "precio": 14.00,
+              "imagen": "/src/assets/images/panini_seven_1794874695833.jpg"
+            },
+            {
+              "nombre": "PANINI CLÁSICO",
+              "descripcion": "Mézclum de lechuga baby mix, mayonesa de la casa, jamón de pierna, queso amarillo y pepperoni.",
+              "precio": 10.00,
+              "imagen": "/src/assets/images/panini_clasico_1794874696152.jpg"
+            },
+            {
+              "nombre": "CHICKEN TENDER",
+              "descripcion": "Solomillo de pollo empanizado acompañado con papas fritas y kétchup.",
+              "precio": 12.00,
+              "imagen": "/src/assets/images/chicken_tender_1794874697090.jpg"
+            },
+            {
+              "nombre": "HAMBURGUESA SEVEN",
+              "descripcion": "Pan brioche, 160 g de carne preparada, mézclum de lechuga, queso mozzarella y parmesano, cebolla caramelizada, rodajas de tomates al grill, dressing de albahaca y papas rústicas.",
+              "precio": 12.00,
+              "imagen": "/src/assets/images/hamburguesa_seven_1794874696576.jpg"
+            },
+            {
+              "nombre": "HAMBURGUESA CRISPY DE POLLO",
+              "descripcion": "Pan brioche, milanesa de pollo crispy, salsa tártara, queso mozzarella, chimichurri y papas rústicas.",
+              "precio": 10.00,
+              "imagen": "/src/assets/images/hamburguesa_crispy_pollo_1794874698021.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cocteles",
+          "nombre": "Cócteles",
+          "tipo": "tipografica",
+          "items": [
+            {
+              "nombre": "AMARETTO SOUR",
+              "descripcion": "Amaretto, jarabe, limón, clara de huevo.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "DAIQUIRI (FRESA O PARCHITA)",
+              "descripcion": "Fruta, limón, ron blanco, jarabe.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "ESPRESSO MARTINI CON HELADO",
+              "descripcion": "Vodka, café espresso, jarabe, licor de café, helado.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "FUERZA Y PASIÓN",
+              "descripcion": "Fresa, leche condensada, ron, vodka, gotas de amargo de angostura, cerezas.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "HAWAI BLUE",
+              "descripcion": "Vodka, ron blanco, curazao azul, crema de coco, limón y jarabe.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "JOHN COLLINS",
+              "descripcion": "Ginebra, limón, jarabe, soda.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "LONG ISLAND ICE TEA",
+              "descripcion": "Ron, tequila, vodka, ginebra, triple sec, limón, jarabe, Coca-Cola.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "MAI THAI",
+              "descripcion": "Ron, licor de almendras, triple sec, limón.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "MARGARITA",
+              "descripcion": "Tequila, triple sec, limón, jarabe.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "MOJITO TRADICIONAL O PARCHITA",
+              "descripcion": "Ron blanco, jarabe, hierba buena, limón (o parchita), 7up.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "MOSCOW MULE",
+              "descripcion": "Vodka, limón, ginger beer.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "NEW YORK SOUR",
+              "descripcion": "Whisky, jarabe, limón, clara de huevo.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "OLD FASHION",
+              "descripcion": "Whisky, amargo de angostura, azúcar.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "ORGASMO",
+              "descripcion": "Licor de café, baileys, amaretto.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "PIÑA COLADA",
+              "descripcion": "Piña, ron, ron de coco, crema de coco.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "PUSSY FOOT",
+              "descripcion": "Jugo de naranja, piña, limón, granadina, yema de huevo.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "SEXY STORM",
+              "descripcion": "Licor de menta, limón en trozos, hierba buena, 7up.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "SOUTH SIDE",
+              "descripcion": "Hierba buena, gin, limón, jarabe.",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "VODKA / TEQUILA SUNRISE",
+              "descripcion": "(vodka o tequila), jugo de naranja, granadina, limón.",
+              "precio": null,
+              "imagen": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "nombre": "Cafetería",
+      "subtitulo": "Una pausa, un buen gusto",
+      "fotos_apoyo": [
+        {
+          "imagen": "/src/assets/images/cafeteria_latte_art_1794915592966.jpg",
+          "alt": "Dos tazas de cappuccino con latte art en Seven Restaurant & Lounge"
+        },
+        {
+          "imagen": "/src/assets/images/cafeteria_espresso_bar_1794915593749.jpg",
+          "alt": "Preparación artesanal de café espresso en la barra de Seven"
+        },
+        {
+          "imagen": "/src/assets/images/cafeteria_postres_casa_1794915593697.jpg",
+          "alt": "Cheesecake neoyorquino, torta de chocolate y café en Lechería"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "postres",
+          "nombre": "Postres",
+          "tipo": "lista",
+          "items": [
+            {
+              "nombre": "Cheesecake Neoyorquino",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Quesillo de Coco",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Torta de Piña, Limón, Naranja o Marmoleada",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Mousse de Chocolate",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Quesillo Tradicional",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Torta de Zanahoria",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Torta Tronchatoro",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Pie de Parchita o Limón",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            }
+          ]
+        },
+        {
+          "id": "cafes",
+          "nombre": "Cafés",
+          "tipo": "lista",
+          "items": [
+            {
+              "nombre": "Latte",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Latte Vainilla",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Capuccino",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Americano",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Mocaccino",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gelatos",
+      "nombre": "Gelatos",
+      "subtitulo": "Gelatos artesanales, sin azúcar y sorbetes frutales",
+      "fotos_apoyo": [
+        {
+          "imagen": "/src/assets/images/gelato_vitrina_pistacho_1794915594678.jpg",
+          "alt": "Gelato artesanal de pistacho en vitrina de Seven Restaurant & Lounge"
+        },
+        {
+          "imagen": "/src/assets/images/gelato_stracciatella_vaso_1794915594659.jpg",
+          "alt": "Vaso de gelato artesanal stracciatella recién servido"
+        },
+        {
+          "imagen": "/src/assets/images/gelato_chocolate_barquillo_1794915594978.jpg",
+          "alt": "Gelato artesanal de chocolate con barquillo crujiente"
+        },
+        {
+          "imagen": "/src/assets/images/gelato_conos_artesanales_1794915595424.jpg",
+          "alt": "Conos de sorbetes frutales y gelato italiano artesanal"
+        },
+        {
+          "imagen": "/src/assets/images/gelato_variedad_sabores_1794915595810.jpg",
+          "alt": "Selección de gelatos artesanales de caramelo salado, tiramisú y coco"
+        }
+      ],
+      "categorias": [
+        {
+          "id": "gelatos-tradicionales",
+          "nombre": "Gelatos",
+          "tipo": "lista",
+          "items": [
+            {
+              "nombre": "Amarena – Nata – Cereza en almíbar",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Café",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Caramelo salado",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Coco",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Crema Real – Mantecado – Naranja",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Dulce de leche",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Dulce de leche y maní",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Ferrero Rocher",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Fior di latte – Nata italiana",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Gianduia – Chocolate – Avellana",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Mandorla – Nata – Almendra",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Mantequilla de maní",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Nocciola – Nata – Avellana",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Pie de limón – Nata – Galletas – Fruta cítrica",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Pirulí",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Pistacho",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Samba – Fragola con galleta de chocolate y fresa",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Stracciatella – Nata – Chocolate",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Tiramisú – Nata – Café – Pastel",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Torta suiza – Mantecado – Galletas fracturadas",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Vainilla Borbone – Sabayon – Vainilla italiana",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            }
+          ]
+        },
+        {
+          "id": "sin-azucar",
+          "nombre": "Sin azúcar",
+          "tipo": "lista",
+          "items": [
+            {
+              "nombre": "Café",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Cheesecake granola-arándanos",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Cocco",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Fior di latte",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Gianduia",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Nocciola",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Pistacho",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Ron con pasas",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Stracciatella",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Vegano Gianduia",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Vegano Vainiglia",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Yogurt con ciruela",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Yogurt con piña",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Yogurt natural",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Yogurt natural con granola",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            }
+          ]
+        },
+        {
+          "id": "sorbetes",
+          "nombre": "Sorbetes",
+          "tipo": "lista",
+          "items": [
+            {
+              "nombre": "Sorbete de fresa",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Sorbete de frutos del bosque",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Sorbete de mango",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            },
+            {
+              "nombre": "Sorbete de parchita",
+              "descripcion": "",
+              "precio": null,
+              "imagen": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
